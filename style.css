@@ -102,10 +102,10 @@ body {
 /* --- Accessibility --------------------------------------------------- */
 /* Slow everything by the same factor so the heart keeps its shape. */
 
-@media (prefers-reduced-motion: reduce) {
+/*@media (prefers-reduced-motion: reduce) {
   :root {
     --sway-duration: 40s;
     --fall-duration: 80s;
     --stagger: 1200ms;
   }
-}
+}*/
