@@ -109,3 +109,21 @@ body {
     --stagger: 1200ms;
   }
 }*/
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100%;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+@media (max-width: 768px) {
+  #heart {
+    transform: scale(0.55);
+    transform-origin: center center;
+  }
+}
