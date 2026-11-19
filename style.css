@@ -109,3 +109,20 @@ body {
     --stagger: 1200ms;
   }
 }*/
+html, body {
+  margin: 0;
+  padding: 0;
+  width: 100vw;
+  height: 100dvh;
+  overflow: hidden;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background: #000;
+}
+
+#heart {
+  position: relative;
+  transform: scale(min(calc(100vw / 750), calc(100dvh / 750), 1));
+  transform-origin: center center;
+}
