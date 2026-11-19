@@ -1,7 +1,7 @@
 "use strict";
 
 const WORD_COUNT = 100;
-const MESSAGE = "T.Hảo🎂";
+const MESSAGE = "T . Hảo 🎂 ";
 
 /** Create one animated word; `--index` drives its animation delay. */
 function createItem(index) {
